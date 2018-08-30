@@ -41,7 +41,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 
 import rosegraphics as rg
 
-window = rg.TurtleWindow
+window = rg.TurtleWindow()
 
 fin = rg.SimpleTurtle()
 fin.pen = rg.Pen('blue', 5)
